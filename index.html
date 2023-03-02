@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>Barcode</title>
+</head>
+<body>
+  <div style="align-items: center; font-size:18px;color: brown;"><h1>developed by </h1>
+    <br>
+  <h1 style="color:yellow">nawzad y harke</h1>
+  </div>
+  <form action="#">
+    <div style="align-items: center;">
+      <label style="align-items: center;padding-bottom: 50px;" for="name">QR code هەژمارا نهینی</label>
+      <input type="text" name="name" id="name">
+      
+    </div>
+    
+    
+    <div class="flex-row">
+      <label for="color">رەنگ</label>
+      <input type="color" name="color" id="color">
+    </div>
+    <input type="submit" id="submit" value="دروست کردن">
+  </form>
+
+  <div id="qr-code-wrapper"></div>
+ 
+  <script src="./qr-code.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
